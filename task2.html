@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timex</title>
+    <link rel="stylesheet" href="timex.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="head">
+            <img class="logo" src="data:image/png;base64,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" alt="">
+
+            <button class="hbtn">search</button>
+            <p class="bttxt">SEARCH</p>
+            <div class="hdicon">
+ 
+                <img class="bar" src="https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-512.png" alt="">
+                <img class="bar2" src="https://icons.iconarchive.com/icons/custom-icon-design/silky-line-user/512/user-icon.png" alt="">
+                <img class="bar3" src="https://cdn-icons-png.flaticon.com/512/263/263142.png" alt="">
+                
+            </div>
+
+       
+        </div>
+        <div class="head2">
+             <img class="logo2" src="data:image/png;base64,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" alt="">
+              <div class="headText">
+                    <p class="hxt1" href="">NEW</p>
+                    <p class="hxt2">WATCHES</p>
+                    <p class="hxt3">SMARTWATCHES</p>
+                    <p class="hxt4">STRAPS</p>
+                    <p class="hxt5">FAN SHOP</p>
+                    <p class="hxt6">CO_LABS</p>
+                    <p class="hxt7">BEST SELLER</p>
+                    <p class="hxt8">SALE</p>
+                    <p class="hxt9">BLOG</p>
+              </div>
+              <div class="mainImg">
+                <img class="image1" src="https://images.timex.com/image/upload/q_auto,f_auto/w_1920,c_fit/Libraries/timexshared/images/category/2021/Q2/Homepage_topbanner_1978-REISSUE_TW2U87800_desktop_logo.jpg" alt="">
+                <p class="imgtxt">Q TIMEX 1978 REISSUE </p>
+                <p class="imgtxt2">THE ORGINAL CROWN-TO-BUCKLE DESIGN</p>
+                <button class="btn1">SHOP NOW</button>
+              </div>
+              <div class="page2">
+                <img class="p2img" src="https://images.timex.com/image/upload/q_auto,f_auto/w_640,c_fit/Libraries/timexshared/images/category/2022/Q2/01977_WB22-April_mens_slot_harborside_TW2V27300_desktop-MECH.jpg" alt="">
+                 <img class="p2img2" src="https://images.timex.com/image/upload/q_auto,f_auto/w_640,c_fit/Libraries/timexshared/images/category/2022/Q1/01965_WB22-March_Womens_slot_desk-TW2V36900.jpg" alt="">
+                 <button class="p2btn">SHOP MENS BEST SELLER</button>
+                 <button class="p2btn2">SHOP WOMENS BEST SELLER</button>
+              </div>
+              <div class="page3">
+                <video controls loop class="p3vid" src="https://images.timex.com/video/upload/f_auto,q_auto,w_2880/Videos/timex/2022q3/02050_WB22_June_Product_feature_desktop_TW2V28700_video_v1.mp4"></video>
+
+                 <h2 class="p3hd">HONORING CENTURIES</h2>
+                 <h2 class="p3hd2">OF CRAFTSMANSHIP</h2>
+
+                 <p class="p3tx1">We have paid homage to our humble beginnings in Waterbury.</p>
+                 <p class="p3tx2">Connecticut, by incorporating the iconic Waterbury Watch</p>
+                 <p class="p3tx3">Company logo on the dial, crown, and sweeping second</p>
+                 <p class="p3tx4">hand, which bears the stylized W.</p>
+
+                 <button class="p3btn">SHOP NOW</button>
+
+              </div>
+              <div class="page4">
+                <img class="p4img" src="https://images.timex.com/image/upload/q_auto,f_auto/w_640,c_fit/Libraries/timexshared/images/category/2022/Q1/01965_WB22-March_discover_slot__IM_T200_TW5M48900-MECH.jpg" alt="">
+                <img class="p4img2" src="https://images.timex.com/image/upload/q_auto,f_auto/w_640,c_fit/Libraries/timexshared/images/category/Q4-2020/01416_WB20-November_discover_slot_GGS1_TW2U16800-MECH.jpg" alt="">
+                <img class="p4img3" src="https://images.timex.com/image/upload/q_auto,f_auto/w_640,c_fit/Libraries/timexshared/images/category/2022/Q2/02014_WB22_May_discover_slot_TW2V32100-MECH.jpg" alt="">
+
+                <p class="p4tx1">TIMEX IRONMAN T200</p>
+                <p class="p4tx2">GIORGIO GALLI</p>
+                <p class="p4tx3">Q TIMEX</p>
+
+                <button class="p4bt1">SHOP NOW</button>
+                <button class="p4bt2">SHOP NOW</button>
+                <button class="p4bt3">SHOP NOW</button>
+                
+              </div>
+              <div class="page5">
+                   <img class="p5img" src="https://images.creator-prod.zmags.com/image/upload/q_90,f_auto/c_scale,w_1536/62de5622cb0c6d164e536d4e.jpeg" alt="">
+                   <img class="p5img2" src="https://images.creator-prod.zmags.com/image/upload/q_90,f_auto/c_scale,w_300/627b57ee2c842c3e75009588.png" alt="">
+
+                   <p class="p5tx1">Our T80 is a throwback to the decade that gave</p>
+                   <p class="p5tx2">us big hair, big music and big dreams. It also</p>
+                   <p class="p5tx3">pays homage to our first digital watches, some</p>
+                   <p class="p5tx4">of the first to hit the market.</p>
+                   <p class="p5tx5">To honor those early hits, we`re proudly</p>
+                   <p class="p5tx6">reintroducing the T80 Neon for a whole new</p>
+                   <p class="p5tx7">generation - a watch that`s both a stylish</p>
+                   <p class="p5tx8">accessory and a serious timekeeping device.</p>
+
+                   <button class="p5btn">SHOP NOW</button>
+
+              </div>
+              <div class="page6">
+                <img class="p6img" src="https://images.creator-prod.zmags.com/image/upload/q_90,f_auto/c_scale,w_1280/62179f3e7826497cf6cd62a5.jpeg" alt="">
+
+                <h2 class="p6tx1">CELEBRATING</h2>
+                <h2 class="p6tx2">50 YEARS OF QUARTZ</h2>
+
+                <button class="p6btn">WATCH VIDEO</button>
+
+              </div>
+              <div class="page7">
+
+                <img class="p7logo" src="data:image/png;base64,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" alt="">
+
+                <h2 class="p7hd1">ABOUT US</h2>
+                 <div class="p7tx1">
+                    <p>Our Story</p>
+                    <p>We Dont Stop</p>
+                    <p>Blog</p>
+                    <p>Careers</p>
+                    <p>Global Site</p>
+                    <p>Sell Timex</p>
+                 </div>
+                 <h2 class="p7hd2">CUSTOMER SERVICE</h2>
+                 <div class="p7tx2">
+                    <p>Help</p>
+                    <p>Contact Us</p>
+                    <p>Check Order Status</p>
+                    <p>Shipping</p>
+                    <p>Returns</p>
+                    <p>Product Registration</p>
+                    <p>Instructions & Manuals</p>
+                    <p>Warrenty & Repair</p>
+                    <p>Extend Product Protection</p>
+                 </div>
+                 <h2 class="p7hd3">EXPLORE TIMEX</h2>
+                 <div class="p7tx3">
+                    <p>Customize</p>
+                    <p>Family Connect</p>
+                    <p>Timex Connected</p>
+                    <p>Ironman GPS App</p>
+                    <p>Media Relation</p>
+                    <p>Brand Ambassadors</p>
+                 </div>
+
+              </div>
+              <div class="footer">
+                <h2 class="ft1">BE THE FIRST TO KNOW & RECEIVE 15% OFF AN ORDER</h2>
+
+                <p class="ft2">By submitting your email address below you are agreeing to <br> the <u>Privacy Policy</u> and <u>Terms & Conditions.</u></p>
+
+                <button class="ftbtn">hi</button>
+                <p class="btin">Email</p>
+                <button style="text-align: center;" class="ftbtn2">SIGN UP</button>
+                <p class="btnin2">SIGN UP</p>
+
+                <p class="ft3">LETS GET SOCIAL. FOLLOW @TIMEX <br>AND SHOW US HOW YOU WEAR YOUR #TIMEX.</p>
+                <img class="ftlog1" src="https://i.pinimg.com/originals/63/9b/3d/639b3dafb544d6f061fcddd2d6686ddb.png" alt="">
+                <img class="ftlog2" src="https://cdn-icons-png.flaticon.com/512/5969/5969008.png" alt="">
+                <img class="ftlog3" src="http://simpleicon.com/wp-content/uploads/facebook-2.png" alt="">
+                <img class="ftlog4" src="https://cdn3.iconfinder.com/data/icons/picons-social/57/73-pinterest-512.png" alt="">
+                <img class="ftlog5" src="https://www.iconpacks.net/icons/1/free-youtube-icon-123-thumb.png" alt="">
+
+                <p class="ft4">Timex is committed to maintaining the heightest accessibility standards <br>in accordance with The Web Condent Accessebility Guidlines(WCAG) <br><u>Click</u>for more details.</p>
+
+              </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
